@@ -7,10 +7,11 @@ I think it does not work in windows, because "mkdir" and "entry->d_type" are not
 ## How to make
 1. cmake CMakeLists.txt
 2. make
+3. copy makeNEB to /usr/local/bin.
 
 ## How to Use
-1. make dir 00 and the last directory 0*; ex. 04, 06 etc...
+1. make dir "00" and the last directory "0*"; ex. 02, 03, 04 etc...
 2. make POSCAR in 00 and the last directory.
 3. run MakeNEB.
-   Directoreis and POSCAR are generated.
+   Directoreis and POSCARs are generated.
    
